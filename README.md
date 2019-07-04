@@ -1,3 +1,8 @@
+## React Portfolio App
+This repository is intended as a practice application that will eventually serve as a portfolio website for me. I see no reason to make the repository private, so her it is. Currently development effort is limited to evening times when I am not working.
+
+Below is temporarily the initial readme created when running the Create React App, this will be removed later.
+_______________________________________________________________________________________________________________
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
