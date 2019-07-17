@@ -10,3 +10,9 @@
 .navbar a {
   font-size: 1.3em;
 }
+
+.navbar img {
+  max-height: 56px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
