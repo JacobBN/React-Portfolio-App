@@ -4,10 +4,12 @@ import NavBar from './components/NavBar'
 function Home() {
   return (
     <>
-      <NavBar/>
-      <div className="content">
+      <React.StrictMode>
+        <NavBar/>
+        <div className="content">
 
-      </div>
+        </div>
+      </React.StrictMode>
     </>
   );
 }
