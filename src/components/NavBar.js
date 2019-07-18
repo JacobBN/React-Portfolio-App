@@ -8,7 +8,7 @@ const linkedin = require('../assets/LinkedIn-Logos/LI-In-Bug.png');
 function NavBar() {
   return (
     <>
-      <Navbar bg="dark" variant="dark">
+      <Navbar variant="dark">
         <Navbar.Brand>
           JacobBN
         </Navbar.Brand>

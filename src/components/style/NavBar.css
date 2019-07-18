@@ -1,14 +1,15 @@
 .navbar {
   min-height: 60px;
+  background-color: #0D4D4D;
 }
 
 .navbar-brand {
-  font-size: 1.3em;
+  font-size: 1.35em;
   user-select: none;
 }
 
 .navbar a {
-  font-size: 1.3em;
+  font-size: 1.35em;
 }
 
 .navbar img {
