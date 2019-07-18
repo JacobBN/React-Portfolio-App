@@ -1,12 +1,14 @@
 import React from 'react';
-import Navbar from 'react-bootstrap/Navbar'
-import Nav from 'react-bootstrap/Nav'
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
 import './style/NavBar.css';
+const github = require('../assets/GitHub-Mark/PNG/GitHub-Mark-Light-64px.png');
+const linkedin = require('../assets/LinkedIn-Logos/LI-In-Bug.png');
 
 function NavBar() {
   return (
     <>
-      <Navbar bg="dark" variant="dark">
+      <Navbar variant="dark">
         <Navbar.Brand>
           JacobBN
         </Navbar.Brand>
@@ -17,11 +19,11 @@ function NavBar() {
         </Nav>
         <Nav className="ml-auto">
           <Nav.Link href="https://github.com/JacobBN" target="_blank">
-            <img alt="GitHub" src="../assets/Gihub-Mark/PNG/Gihub-Mark-Light-64px"/>
+            <img alt="GitHub" src={github}/>
           </Nav.Link>
           <Nav.Link href="https://www.linkedin.com/in/jacobbn" target="_blank">
-            <img alt="LinkedIn" src="../assets/LinkedIn-Logos/Li-In-Bug.png"/>
-            </Nav.Link>
+            <img alt="LinkedIn" src={linkedin}/>
+          </Nav.Link>
         </Nav>
       </Navbar>
     </>
