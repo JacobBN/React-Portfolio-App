@@ -2,15 +2,6 @@
 This repository is intended as a practice application that will eventually serve as a portfolio website for me. I see no reason to make the repository private, so here it is. Currently development effort is limited to evening times when I am not working.
 
 I've kept the initial readme created with create-react-app for reference at the bottom of this file for now. This will be erased when I don't want to refer to it any longer.
-
-## Helpful Information
-
-## Projects and Pull Requests
-To have an issue resolved with a pull request you need to add the keywords 'fixes #1' where in this case it would fix issue number 1.<br><br>
-Refer to these links:<br>
-https://github.blog/2013-05-14-closing-issues-via-pull-requests/ <br>
-https://help.github.com/en/articles/closing-issues-using-keywords 
-
 _______________________________________________________________________________________________________________
 ## Initial Readme
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
