@@ -1,13 +1,21 @@
 .card {
   border: 1px solid darkgray;
 }
-
 .card-header {
   text-align: center;
+}
+.card-body {
+  padding: 18px 38px 18px 38px;
 }
 .card-title {
   text-align: center;
 }
 .card-text {
-  text-align: center;
+  float: right;
+  line-height: 144px;
+}
+.font-icon {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
