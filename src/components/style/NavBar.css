@@ -3,18 +3,18 @@
   background-color: #0D4D4D;
   border-bottom: 1px solid darkgray;
 }
-
 .navbar-brand {
   font-size: 1.5em;
   user-select: none;
 }
-
 .navbar a {
   font-size: 1.35em;
 }
-
 .navbar img {
   max-height: 56px;
   margin-left: 4px;
   margin-right: 4px;
+}
+.social-icon {
+  font-size: 2.7em;
 }
