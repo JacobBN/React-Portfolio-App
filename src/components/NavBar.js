@@ -15,7 +15,6 @@ function NavBar() {
         <Nav className="mr-auto">
           <Nav.Link href="#home">Home</Nav.Link>
           <Nav.Link href="#portfolio">Portfolio</Nav.Link>
-          <Nav.Link href="#contact">Contact</Nav.Link>
         </Nav>
         <Nav className="ml-auto">
           <Nav.Link href="https://github.com/JacobBN" target="_blank">
