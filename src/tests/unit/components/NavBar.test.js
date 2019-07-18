@@ -34,13 +34,9 @@ it('renders correctly', () => {
   portfolioLink = portfolioLink[portfolioLink.length - 1];
   expect(portfolioLink).toBe('#portfolio');
 
-  let contactLink = nav[2].href.split('/');
-  contactLink = contactLink[contactLink.length -1];
-  expect(contactLink).toBe('#contact');
-
-  let githubLink = nav[3].href;
+  let githubLink = nav[2].href;
   expect(githubLink).toBe('https://github.com/JacobBN');
 
-  let linkedInLink = nav[4].href;
+  let linkedInLink = nav[3].href;
   expect(linkedInLink).toBe('https://www.linkedin.com/in/jacobbn');
 });
