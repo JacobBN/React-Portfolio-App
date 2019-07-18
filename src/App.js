@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBar from './components/NavBar'
 import Card from 'react-bootstrap/Card';
-import './views/style/startpage.css';
+import './views/style/home.css';
 
 function Home() {
   return (
