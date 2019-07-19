@@ -18,7 +18,7 @@ function NavBar() {
           <Nav.Link href="#portfolio">Portfolio</Nav.Link>
         </Nav>
         <Nav className="ml-auto">
-          <Nav.Link href="" target="_blank">
+          <Nav.Link href="https://www.hackerrank.com/jacob_b_norgaard" target="_blank">
             <FontAwesomeIcon icon={faHackerrank} color="white" className="social-icon"/>
           </Nav.Link>
           <Nav.Link href="https://github.com/JacobBN" target="_blank">
