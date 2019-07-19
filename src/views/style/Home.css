@@ -3,18 +3,31 @@
 }
 .card-header {
   text-align: center;
-}
-.card-body {
-  padding: 18px 38px 18px 38px;
-}
+} 
 .card-title {
   text-align: center;
 }
-.card-text {
-  float: right;
-  line-height: 144px;
+.card-icon-wrapper {
+  position: relative;
+  float: left;
+  height: 100%;
+  width: 20%;
 }
 .font-icon {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  max-height: 100%;
+} 
+.card-text-wrapper {
+  position: relative;
+  float: right;
+  height: 100%;
+  width: 78%;
+  padding: 12px;
+}
+.card-text {
+  display: block;
   position: relative;
   top: 50%;
   transform: translateY(-50%);
