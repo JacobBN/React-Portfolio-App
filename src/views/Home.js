@@ -1,5 +1,7 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faReact, faGitAlt } from '@fortawesome/free-brands-svg-icons';
 import './style/Home.css';
 
 function Home() {
@@ -15,19 +17,29 @@ function Home() {
           <Card>
             <Card.Header as="h5">Create React App</Card.Header>
             <Card.Body>
-              <Card.Text>
-                This website was created using create-react-app. 
-                Check out React <a href="https://reactjs.org/">here</a>!
-              </Card.Text>
+              <div className="card-icon-wrapper">
+                <FontAwesomeIcon icon={faReact} color="#2867b2" size="9x" className="font-icon"/>
+              </div>
+              <div className="card-text-wrapper">
+                <Card.Text>
+                  This website was created using create-react-app. 
+                  Check out React <a href="https://reactjs.org/">here</a>!
+                </Card.Text>
+              </div>
             </Card.Body>
           </Card>
           <Card>
-            <Card.Header as="h5">GitHub</Card.Header>
+            <Card.Header as="h5">Git Repository</Card.Header>
             <Card.Body>
-              <Card.Text>
-                All development on this site is publicly available on my Github. 
-                Take a look at it <a href="https://github.com/JacobBN/React-Portfolio-App/">here</a>!
-              </Card.Text>
+              <div className="card-icon-wrapper">
+                <FontAwesomeIcon icon={faGitAlt} color="indigo" size="9x" className="font-icon"/>
+              </div>
+              <div className="card-text-wrapper">
+                <Card.Text>
+                  All development on this site is publicly available on my Github.
+                  Take a look at it <a href="https://github.com/JacobBN/React-Portfolio-App/">here</a>!
+                </Card.Text>
+              </div>
             </Card.Body>
           </Card>
         </div>
