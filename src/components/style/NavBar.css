@@ -8,12 +8,12 @@
   user-select: none;
 }
 .navbar a {
+  margin-left: 16px;
   font-size: 1.35em;
+  color: rgba(255, 255, 255, 0.5);
 }
-.navbar img {
-  max-height: 56px;
-  margin-left: 4px;
-  margin-right: 4px;
+.navbar a:hover {
+  color: rgba(255, 255, 255, 0.75);
 }
 .social-icon {
   font-size: 2.7em;
