@@ -1,3 +1,7 @@
+.card-deck {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 .card {
   border: 1px solid darkgray;
 }
@@ -18,7 +22,14 @@
   left: 50%;
   transform: translateX(-50%);
   max-height: 100%;
-} 
+}
+.card-image {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  max-height: 100%;
+  width: 125px;
+}
 .card-text-wrapper {
   position: relative;
   float: right;

@@ -2,6 +2,7 @@ import React from 'react';
 import Card from 'react-bootstrap/Card';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faReact, faGitAlt } from '@fortawesome/free-brands-svg-icons';
+import devopsIcon from '../assets/azure-icons/DevOps Service Color/Azure DevOps.svg';
 import './style/Home.css';
 
 function Home() {
@@ -38,6 +39,34 @@ function Home() {
                 <Card.Text>
                   All development on this site is publicly available on my Github.
                   Take a look at it <a href="https://github.com/JacobBN/React-Portfolio-App/">here</a>!
+                </Card.Text>
+              </div>
+            </Card.Body>
+          </Card>
+        </div>
+        <div className="card-deck">
+          <Card>
+            <Card.Header as="h5">DevOps</Card.Header>
+            <Card.Body>
+              <div className="card-icon-wrapper">
+                <img alt="DevOps Icon" src={devopsIcon} className="card-image"/>
+              </div>
+              <div className="card-text-wrapper">
+                <Card.Text>
+                  I'm also using <a href="https://azure.microsoft.com/en-us/services/devops/">Azure DevOps</a>, connected to the GitHub repository.
+                </Card.Text>
+              </div>
+            </Card.Body>
+          </Card>
+          <Card>
+            <Card.Header as="h5">Render</Card.Header>
+            <Card.Body>
+              <div className="card-icon-wrapper">
+                
+              </div>
+              <div className="card-text-wrapper">
+                <Card.Text>
+                  This site is deployed on <a href="https://www.render.com">render.com</a>.
                 </Card.Text>
               </div>
             </Card.Body>
