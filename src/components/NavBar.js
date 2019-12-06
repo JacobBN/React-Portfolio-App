@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHackerrank, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faRegistered } from '@fortawesome/free-regular-svg-icons';
@@ -13,9 +14,9 @@ function NavBar() {
         <Navbar.Brand>
           JacobBN
         </Navbar.Brand>
-        <Nav className="mr-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#portfolio">Portfolio</Nav.Link>
+        <Nav className="mr-auto align-items-center">
+          <Link to="/home">Home</Link>
+          <Link to="/portfolio">Portfolio</Link>
         </Nav>
         <Nav className="ml-auto">
           <Nav.Link href="https://www.hackerrank.com/jacob_b_norgaard" target="_blank">
