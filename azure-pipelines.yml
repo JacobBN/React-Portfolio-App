@@ -13,3 +13,6 @@ steps:
 - task: CmdLine@2
   inputs:
     script: 'git pull https://github.com/JacobBN/React-Portfolio-App.git master'
+- task: CmdLine@2
+  inputs:
+    script: 'git push https://github.com/JacobBN/React-Portfolio-App.git master'
