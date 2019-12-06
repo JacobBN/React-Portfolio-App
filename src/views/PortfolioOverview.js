@@ -39,7 +39,7 @@ function PortfolioOverview() {
             </Card.Footer>
           </Card>
         </CardDeck>
-        <CardDeck>
+        <CardDeck className="mb-4">
           <Card>
             <Card.Img variant="top" src="#" />
             <Card.Body>
