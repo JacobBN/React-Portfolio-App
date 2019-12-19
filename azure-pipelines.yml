@@ -4,8 +4,7 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
 
 trigger:
-- master
-- /*
+- feature/*
 
 pool:
   vmImage: 'ubuntu-latest'
@@ -14,7 +13,7 @@ steps:
 - task: CmdLine@2
   displayName: git pull
   inputs:
-    script: 'git pull https://github.com/JacobBN/React-Portfolio-App.git master'
+    script: 'git pull https://github.com/JacobBN/React-Portfolio-App.git feature'
 - task: Npm@1
   displayName: npm install
   inputs:
@@ -26,4 +25,4 @@ steps:
 - task: CmdLine@2
   displayName: git push
   inputs:
-    script: 'git push https://github.com/JacobBN/React-Portfolio-App.git master'
+    script: 'git push https://github.com/JacobBN/React-Portfolio-App.git feature'
