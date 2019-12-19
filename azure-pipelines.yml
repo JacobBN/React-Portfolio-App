@@ -13,10 +13,9 @@ steps:
 - task: CmdLine@2
   inputs:
     script: 'git pull https://github.com/JacobBN/React-Portfolio-App.git master'
-- task: Npm@1
+- task: CmdLine@2
   inputs:
-    command: 'custom'
-    customCommand: 'run test'
+    script: 'CI=true npm run test'
 - task: CmdLine@2
   inputs:
     script: 'git push https://github.com/JacobBN/React-Portfolio-App.git master'
