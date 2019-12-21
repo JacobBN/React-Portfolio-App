@@ -13,7 +13,7 @@ steps:
 - task: CmdLine@2
   displayName: git pull
   inputs:
-    script: 'git pull https://github.com/JacobBN/React-Portfolio-App.git feature'
+    script: 'git pull https://github.com/JacobBN/React-Portfolio-App.git $(Build.SourceBranchName)'
 - task: Npm@1
   displayName: npm install
   inputs:
@@ -25,4 +25,4 @@ steps:
 - task: CmdLine@2
   displayName: git push
   inputs:
-    script: 'git push https://github.com/JacobBN/React-Portfolio-App.git feature'
+    script: 'git push https://github.com/JacobBN/React-Portfolio-App.git $(Build.SourceBranchName)'
